@@ -37,10 +37,11 @@ button:hover {
 
 
 .hed-bg {
-    background: url(../images/header-bg.png);
+    background: url(../images/header-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 
 .logo {
@@ -207,10 +208,11 @@ button:hover {
 }
 
 #watch {
-    background: url(../images/watch.png);
+    background: url(../images/watch.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+      background-attachment:fixed;
 }
 
 .watch-btn {
@@ -353,10 +355,11 @@ div.video-wrapper {
 
 /* === Team Part Start === */
 #team {
-    background: url(../images/team.png);
+    background: url(../images/team.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+      background-attachment:fixed;
 }
 
 .team-head h2 {
@@ -540,10 +543,11 @@ div.video-wrapper {
 
 /* ===Clients Part Start === */
 #clients {
-    background: url(../images/clients.png);
+    background: url(../images/clients.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+      background-attachment:fixed;
 }
 
 .clients-main {
@@ -625,11 +629,12 @@ div.video-wrapper {
 
 /*=== Footer Part Start ===*/
 #footer {
-    background: url(../images/footer.png);
+    background: url(../images/footer.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: #ffffff;
+      background-attachment:fixed;
 }
 
 .foot-head {
