@@ -37,7 +37,7 @@ button:hover {
 
 
 .hed-bg {
-    background: url(../images/header-bg.jpg);
+    background: url(../images/header-bg.jpg) #3d325d;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -208,7 +208,7 @@ button:hover {
 }
 
 #watch {
-    background: url(../images/watch.jpg);
+    background: url(../images/watch.jpg) #3d325d;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -355,7 +355,7 @@ div.video-wrapper {
 
 /* === Team Part Start === */
 #team {
-    background: url(../images/team.jpg);
+    background: url(../images/team.jpg) #3d325d;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -543,7 +543,7 @@ div.video-wrapper {
 
 /* ===Clients Part Start === */
 #clients {
-    background: url(../images/clients.jpg);
+    background: url(../images/clients.jpg) #3d325d;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -629,7 +629,7 @@ div.video-wrapper {
 
 /*=== Footer Part Start ===*/
 #footer {
-    background: url(../images/footer.jpg);
+    background: url(../images/footer.jpg) #3d325d;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
