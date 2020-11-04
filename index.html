@@ -5,17 +5,18 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <meta name="twitter:image" content="https://borhan4238.github.io/assets/images/portfolio/tajam.jpg" />
+    <meta name="twitter:image" content="https://borhan4238.github.io/assets/images/portfolio/tajam.jpg" />
     <meta property="og:image" content="https://borhan4238.github.io/assets/images/portfolio/tajam.jpg" />
     <meta property="og:image:width" content="1200" />
-    
+
     <!-- Font CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
     <!-- Fontawsome v5 CSS -->
     <link rel="stylesheet" href="css/icon/all.min.css">
     <link rel="stylesheet" href="css/icon/font-awesome.min.css">
     <!--Animate-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="wow-master/css/animate.css">
     <!--Slick Sider-->
     <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="slick/slick.css">
@@ -30,25 +31,28 @@
 
 <body>
     <section id="header" class="hed-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 logo">
+        <nav class="navbar navbar-expand-lg menu-head">
+            <div class="container d-flex align-iteam-center">
+                <div class="col-4 logo navbar-brand">
                     <img src="images/logo.png" alt="">
                 </div>
                 <div class="col-8 main-menu text-right">
-                    <nav class="menu">
+                    <div class="menu menu-center">
                         <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Experies</a></li>
-                            <li><a href="">Teams</a></li>
-                            <li><a href="">Works</a></li>
-                            <li><a href="">People Say</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#story">About</a></li>
+                            <li><a href="#services">Experies</a></li>
+                            <li><a href="#team">Teams</a></li>
+                            <li><a href="#works">Works</a></li>
+                            <li><a href="#clients">People Say</a></li>
+                            <li><a href="#partner">Contact</a></li>
                         </ul>
-                    </nav>
+                    </div>
                 </div>
             </div>
+        </nav>
+
+        <div class="container">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -92,6 +96,9 @@
             </div>
         </div>
     </section>
+
+
+
     <!--Story Part Start-->
     <section id="story">
         <div class="container">
@@ -469,17 +476,21 @@
 
 
 
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/custom.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
-
+    <!--Animation -->
+    <script src="wow-master/js/wow.min.js"></script>
     <!--  Slick -->
     <script src="slick/slick.min.js"></script>
+
+
+    <script src="js/custom.js"></script>
+
     <script type="text/javascript">
         $(document).ready(function() {
             $('.my-slider').slick({
@@ -497,10 +508,7 @@
             var nextButton = '<span class="slick-next">&#8594;</span>'
 
         });
-
     </script>
 
 
-</body>
-
-</html>
+</body></html>
